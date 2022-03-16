@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Survey Form</title>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500&display=swap');
+    </style>
 </head>
 <body>
     <h1>Feedback Form Peserta Front-End</h1>
@@ -17,21 +21,21 @@
             </label>
             <input type="email" id="email" placeholder="Masukkan Email..." />
         </div>
-        <br>
+
         <div class="form-input">
             <label for="name" id="label-name">
                 <b>Nama:</b>
             </label>
             <input type="text" id="name" placeholder="Masukkan Nama..." />
         </div>
-        <br>
+
         <div class="form-input">
             <label for="camp" id="label-camp">
                 <b>ID Camp:</b> 
             </label>
             <input type="text" id="camp" placeholder="Masukkan ID CAMP" />
         </div>
-        <br>
+
         <div class="form-input">
             <label for="kelas" id="label-kelas">
                 <b>Kelas:</b> 
@@ -48,67 +52,76 @@
                 <option value="fe-1">FE 8</option>
             </select>
         </div>
-        <br>
+
         <div class="form-input">
             <label>
                 <b>Kepuasan Anda Mengikuti Kelas Webinar:</b> 
             </label>
-            <br>
+
+
             <!-- Input Type Radio Button -->
             <label for="score-1">
                 <input type="radio" id="score-1" name="score">Sangat Puas</input>
             </label>
-            <br>
+
+
             <label for="score-2">
                 <input type="radio" id="score-2" name="score">Puas</input>
             </label>
-            <br>
+
+
             <label for="score-3">
                 <input type="radio" id="score-3" name="score">Cukup Puas</input>
             </label>
-            <br>
+
+
             <label for="score-4">
                 <input type="radio" id="score-4" name="score">Kurang Puas</input>
             </label>
         </div>
-        <br>
+
         <div class="form-input">
             <label>
                 <b>Dari beberapa pembelajaran, tema apa yang anda paling minati?</b> 
-                <br>
+    
+
                 <small>(Bisa pilih lebih dari 1)</small>
             </label>
-            <br>
+
+
             <!-- Input Type Checkbox -->
             <label for="framework-1">
                 <input type="checkbox" name="framework">Webinar Software Engineering</input></label>
-                <br>
+    
+
             <label for="framework-2">
                 <input type="checkbox" name="framework">Workshop Software Engineering</input></label>
-                <br>
+    
+
             <label for="framework-3">
                 <input type="checkbox" name="framework">Webinar Manajemen Project</input></label>
-                <br>
+    
+
             <label for="framework-4">
                 <input type="checkbox" name="framework">Webinar Soft Skill & Presentation</input></label>
         </div>
-        <br>
+
         <div class="form-input">
             <label for="comment">
                 <b>Komentar Tambahan:</b>
-                <br>
+    
+
                 <small>(Bisa terkait LMS)</small>
             </label>
-        <br>
+
         <!-- Text Area -->
             <textarea name="comment" id="comment"
                 placeholder="Enter your comment here">
             </textarea>
         </div>
-        <br>
         <!-- Button -->
-        <button type="submit" value="submit">
-           <a href="hasil.html">Kirim</a>  
+        <button class="button" type="submit" value="submit">
+            Kirim
         </button>
     </form>
 </body>

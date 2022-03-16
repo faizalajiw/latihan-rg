@@ -1,0 +1,62 @@
+/* Styling body */
+body {
+    background-color: #006dd3;
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+    text-align: center;
+}
+ 
+/* Styling form */
+form {
+    background-color: #fff;
+    color: #000;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+}
+ 
+/* Styling form-input class */
+.form-input {
+    text-align: left;
+    margin-bottom: 25px;
+}
+ 
+/* Styling form-input label */
+.form-input label {
+    display: block;
+    margin-bottom: 10px;
+}
+ 
+/* Styling form-input input, dropdown, textarea */
+.form-input input,
+.form-input select,
+.form-input textarea {
+    border: 1px solid #777;
+    border-radius: 2px;
+    font-family: 'Fredoka', sans-serif;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+ 
+/* Styling form-input, radio button, checkbox */
+.form-input input[type="radio"],
+.form-input input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
+ 
+/* Styling button */
+.button {
+    background-color: #006dd3;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Fredoka', sans-serif;
+    color: #fff;
+    padding: 15px 32px;
+    text-align: center;
+    display: block;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
