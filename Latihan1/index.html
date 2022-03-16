@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <h1>Feedback Form Peserta Front-End</h1>
+    <!-- Create Form -->
+    <form id="form">
+        <!-- Details -->
+        <div class="form-input">
+            <label for="email" id="label-email">
+                Email:
+            </label>
+            <input type="email" id="email" placeholder="Masukkan Email..." />
+        </div>
+
+        <div class="form-input">
+            <label for="name" id="label-name">
+                Nama:
+            </label>
+            <input type="text" id="name" placeholder="Masukkan Nama..." />
+        </div>
+
+        <div class="form-input">
+            <label for="camp" id="label-camp">
+                ID Camp:
+            </label>
+            <input type="text" id="camp" placeholder="Masukkan ID CAMP" />
+        </div>
+
+        <div class="form-input">
+            <label for="kelas" id="label-kelas">
+                Kelas:
+            </label> 
+            <!-- Dropdown options -->
+            <select name="kelas" id="kelas">
+                <option value="fe">Pilih kelas...</option>
+                <option value="fe-1">FE 1</option>
+                <option value="fe-2">FE 2</option>
+                <option value="fe-3">FE 3</option>
+                <option value="fe-4">FE 4</option>
+                <option value="fe-5">FE 5</option>
+                <option value="fe-6">FE 6</option>
+                <option value="fe-7">FE 7</option>
+                <option value="fe-8">FE 8</option>
+            </select>
+        </div>
+
+        <div class="form-input">
+            <label>
+                Kepuasan Anda Mengikuti Kelas Webinar:
+            </label>
+
+            <!-- Input Type Radio Button -->
+            <label for="score-1">
+                <input type="radio" id="score-1" name="score">Sangat Puas</input>
+            </label>
+
+            <label for="score-2">
+                <input type="radio" id="score-2" name="score">Puas</input>
+            </label>
+
+            <label for="score-3">
+                <input type="radio" id="score-3" name="score">Cukup Puas</input>
+            </label>
+
+            <label for="score-4">
+                <input type="radio" id="score-4" name="score">Kurang Puas</input>
+            </label>
+        </div>
+
+        <div class="form-input">
+            <label>
+                Dari beberapa pembelajaran, tema apa yang anda paling minati?
+                <small>(Bisa pilih lebih dari 1)</small>
+            </label>
+
+            <!-- Input Type Checkbox -->
+            <label for="answer-1">
+                <input type="checkbox" name="answer">Webinar Software Engineering</input></label>
+    
+            <label for="answer-2">
+                <input type="checkbox" name="answer">Workshop Software Engineering</input></label>
+    
+            <label for="answer-3">
+                <input type="checkbox" name="answer">Webinar Manajemen Project</input></label>
+    
+            <label for="answer-4">
+                <input type="checkbox" name="answer">Webinar Soft Skill & Presentation</input></label>
+        </div>
+
+        <div class="form-input">
+            <label for="comment">
+                Komentar Tambahan:
+                <small>(Bisa terkait LMS)</small>
+            </label>
+
+        <!-- Text Area -->
+            <textarea name="comment" id="comment" 
+                placeholder="Masukkan tambahan...">
+            </textarea>
+        </div>
+        <!-- Button -->
+        <a href="hasil.html" target="_blank">Kirim</a> 
+    </form>
+</body>
+</html>
