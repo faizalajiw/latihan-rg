@@ -1,6 +1,6 @@
 /* Styling body */
 body {
-    background-image: url(/assets/bg.png); /* sumber: https://wallpapercave.com/w/wp2610910 */
+    background-image: url(/Latihan2/assets/bg.png); /* sumber: https://wallpapercave.com/w/wp2610910 */
     font-family: 'Fredoka', sans-serif;
     color: #fff;
     text-align: center;
@@ -9,7 +9,7 @@ body {
 /* Styling form */
 form {
     background-color: #fff;
-    background-image: url(/assets/bg.png);
+    background-image: url(/Latihan2/assets/bg.png);
     color: #fff;
     max-width: 500px;
     margin: 50px auto;
